@@ -10,7 +10,7 @@ document.querySelectorAll(".second") */
 /* //4-Select a list item with a class of third, but only the list item inside of the ol tag.
 document.querySelector("ol .third"); */
 
-/* //5-Give the section with an id of container the text "Hello!".
+/* //5-Give the section with an id of container the text "Hello!"
 let text = document.querySelector("container")
 text.innerText = "Hello" */
 
@@ -22,14 +22,14 @@ footer.classList.add("main") */
 footer.classList.remove("main") */
 
 /* //8-Create a new li element
-let newLi = document.createElement("li"); */
+let newLi = document.createElement("li") */
 
 /* //9-Give the li the text "four"
 newLi.innerText = "four" */
 
 
 /* //10-Append the li to the ul element
-let list = document.querySelector("ul");
+let list = document.querySelector("ul")
 list.appendChild(newLi) */
 
 /* //12-Loop over all of the lis inside the ol tag and give them a background color of "green".
