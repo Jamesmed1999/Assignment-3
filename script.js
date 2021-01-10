@@ -2,7 +2,7 @@
 document.getElementById("container"); */
 
 /* //2-Select the section with an id of container using querySelector.
-document.querySelector("#container") */
+document.querySelector("container") */
 
 /* //3-Select all of the list items with a class of "second".
 document.querySelectorAll(".second") */
@@ -10,7 +10,7 @@ document.querySelectorAll(".second") */
 /* //4-Select a list item with a class of third, but only the list item inside of the ol tag.
 document.querySelector("ol .third"); */
 
-/* //5-Give the section with an id of container the text "Hello!"
+/* //5-Give the section with an id of container the text "Hello!".
 let text = document.querySelector("container")
 text.innerText = "Hello" */
 
@@ -37,7 +37,6 @@ let liinside = document.querySelectorAll("ol li")
 for(let i = 0;i<liinside.length;i++)
 {
     liinside[i].style.backgroundColor = "green"
-    
 } */
 
 /* //13-Remove the div with a class of footer.
